@@ -118,11 +118,9 @@ This will open the User Dashboard.
 Use the administrator email:
 
 Email: admin@smartpark.com  
-Password: `<ADMIN_DEMO_PASSWORD>`
+Password: 1234
 
 This will open the Admin Dashboard.
-
-> Note: Replace `<ADMIN_DEMO_PASSWORD>` with the actual demo password before publishing the README. Do not publish sensitive production credentials.
 
 
 ##  Deployment
