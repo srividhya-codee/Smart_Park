@@ -81,45 +81,6 @@ SmartPark Login
 
 The user logs into SmartPark and can use the parking-related features.
 
-```text
-User Login
-    ↓
-Allow Current Location
-    ↓
-Find Nearby Parking
-    ↓
-View Available Parking Spots
-    ↓
-Select Parking Spot
-    ↓
-Reserve Parking
-    ↓
-Complete Booking
-    ↓
-View Digital Parking Pass
-    ↓
-Manage My Bookings
-
-
-Admin Login
-    ↓
-Admin Authentication
-    ↓
-Admin Dashboard
-    ↓
-Monitor Parking Occupancy
-    ↓
-Manage Parking Spots
-    ↓
-View Traffic & Parking Analytics
-    ↓
-View Reports
-    ↓
-Monitor Redis Locks
-    ↓
-Monitor PostgreSQL Data
-
-Over all system workflow
 
                     SmartPark
                        ↓
