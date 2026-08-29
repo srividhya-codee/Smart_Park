@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  smartpark-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: smartpark-chennai-app
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - DATABASE_URL=postgresql://postgres:smartpark_secure_pwd@postgres:5432/smartpark_chennai
+      - REDIS_URL=redis://redis:6379
+    depends_on:
+      - postgres
+      - redis
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:16-alpine
+    container_name: smartpark-chennai-postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: smartpark_secure_pwd
+      POSTGRES_DB: smartpark_chennai
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    container_name: smartpark-chennai-redis
+    ports:
+      - "6379:6379"
+    command: redis-server --appendonly yes
+    volumes:
+      - redisdata:/data
+    restart: unless-stopped
+
+volumes:
+  pgdata:
+  redisdata:

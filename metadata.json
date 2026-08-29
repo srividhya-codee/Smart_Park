@@ -1,0 +1,6 @@
+{
+  "name": "SmartPark - AI Roadside Parking & Guardian",
+  "description": "Full-stack AI-assisted roadside parking platform with ParkMate AI, real-time slot reservation, Redis temporary locking, availability prediction, virtual parking safety guardian, community reports, and PostgreSQL data engine.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
