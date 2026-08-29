@@ -67,16 +67,6 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
             Live monitoring of curb occupancy rates across Chennai zones, smart meter revenue, sensor health, and automated congestion controls.
           </p>
         </div>
-
-        <div className="flex items-center gap-2 shrink-0">
-          <button
-            id="btn-simulate-rush-hour"
-            onClick={onSimulateRush}
-            className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-amber-50 hover:bg-amber-100 border border-amber-300 text-amber-900 text-xs font-semibold transition-all shadow-xs"
-          >
-            <Flame className="w-4 h-4 text-amber-600" />
-            <span>Simulate Rush Hour Surge</span>
-          </button>
           <button
             onClick={fetchMetrics}
             className="p-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-200 transition-colors"
@@ -84,7 +74,7 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
             <RefreshCw className="w-4 h-4" />
           </button>
         </div>
-      </div>
+      
 
       {/* Top KPI Cards in ₹ INR */}
       {metrics && (
