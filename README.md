@@ -136,3 +136,64 @@ Over all system workflow
           Reservation       Manage Parking
               ↓                 ↓
         Digital Pass        Analytics
+
+## 🔐 Demo Access
+
+No signup is required to explore the application.
+
+### 👤 User Dashboard
+
+Enter any valid email address and password.
+
+Example:
+
+Email: evaluator@example.com  
+Password: 12345
+
+This will open the User Dashboard.
+
+### 🛡️ Admin Dashboard
+
+Use the administrator email:
+
+Email: admin@smartpark.com  
+Password: `<ADMIN_DEMO_PASSWORD>`
+
+This will open the Admin Dashboard.
+
+> Note: Replace `<ADMIN_DEMO_PASSWORD>` with the actual demo password before publishing the README. Do not publish sensitive production credentials.
+
+
+## 🚀 Deployment
+
+SmartPark is deployed as a web application using Render.
+
+### Deployment Flow
+
+Local Development
+        ↓
+VS Code
+        ↓
+Git
+        ↓
+GitHub
+        ↓
+Render
+        ↓
+Live SmartPark Application
+
+### Live Application
+
+🌐 Live Demo: [ https://smart-parkai-1brw.onrender.com]
+
+## 👩‍💻 Author
+
+**Srividhya**
+
+Developer & Project Author
+
+### Project
+
+**SmartPark – AI Roadside Parking & Virtual Guardian**
+
+A smart parking management system designed to simplify roadside parking discovery, reservation, digital parking management, and administrative monitoring.
