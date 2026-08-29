@@ -2,15 +2,11 @@ import React, { useState } from 'react';
 import { 
   Layers, 
   Server, 
-  Database, 
-  Lock, 
-  Sparkles, 
-  Cpu, 
-  Terminal, 
+  Database,  
+  Cpu,  
   Copy, 
   Check, 
-  Code, 
-  ExternalLink 
+  Code,  
 } from 'lucide-react';
 
 export const ArchitectureView: React.FC = () => {
@@ -53,14 +49,7 @@ export const ArchitectureView: React.FC = () => {
       desc: 'Trigger emergency SOS broadcast to Greater Chennai Police Control (100 / 112)',
       curl: `curl -X POST http://localhost:3000/api/guardian/guard-ses-101/trigger-sos`
     },
-    {
-      method: 'POST',
-      path: '/api/sql/query',
-      desc: 'Execute dynamic SQL against PostgreSQL relational engine',
-      curl: `curl -X POST http://localhost:3000/api/sql/query \\
-  -H "Content-Type: application/json" \\
-  -d '{"query": "SELECT code, name, hourly_rate_inr FROM parking_spots WHERE status = \\'available\\';"}'`
-    }
+    
   ];
 
   const handleCopy = (curl: string, index: number) => {
