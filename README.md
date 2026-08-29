@@ -151,8 +151,5 @@ Live SmartPark Application
 
 Developer & Project Author
 
-### Project
 
-**SmartPark – AI Roadside Parking & Virtual Guardian**
 
-A smart parking management system designed to simplify roadside parking discovery, reservation, digital parking management, and administrative monitoring.
