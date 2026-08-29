@@ -35,11 +35,11 @@ export const ReservationModal: React.FC<ReservationModalProps> = ({
   lockExpiresAt
 }) => {
   const [durationHours, setDurationHours] = useState(2);
-  const [vehiclePlate, setVehiclePlate] = useState('TN-09-CB-4821');
+  const [vehiclePlate, setVehiclePlate] = useState('');
   const [vehicleType, setVehicleType] = useState<VehicleType>('car');
   const [paymentMethod, setPaymentMethod] = useState<'UPI' | 'FASTag' | 'Card' | 'NetBanking' | 'Cash on Bay'>('UPI');
-  const [userName, setUserName] = useState('Srividhya N');
-  const [userPhone, setUserPhone] = useState('+91 98401 54321');
+  const [userName, setUserName] = useState('');
+  const [userPhone, setUserPhone] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   // Fee calculation in ₹ INR
