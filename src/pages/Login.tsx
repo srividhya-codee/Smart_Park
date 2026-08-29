@@ -55,6 +55,19 @@ export default function Login({ onLogin }: LoginProps) {
           <p className="text-sm text-slate-500 text-center mt-2 mb-6">
             Login to continue to SmartPark
           </p>
+          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-4 mb-6">
+            <p className="text-sm font-semibold text-emerald-800 text-center">
+               Demo Access — No signup required
+            </p>
+
+            <p className="text-xs text-slate-600 text-center mt-2">
+              👤 User: Enter any valid email and password
+            </p>
+
+            <p className="text-xs text-slate-600 text-center mt-1">
+              🛡️ Admin: Use admin@smartpark.com and any password
+            </p>
+</div>
 
           <form onSubmit={handleLogin} className="space-y-5">
 
@@ -135,14 +148,8 @@ export default function Login({ onLogin }: LoginProps) {
 
           </form>
 
-          <p className="text-center text-sm text-slate-500 mt-6">
-            Don't have an account?{' '}
-            <button
-              type="button"
-              className="text-emerald-600 font-semibold"
-            >
-              Sign Up
-            </button>
+          <p className="text-center text-xs text-slate-400 mt-6">
+            Demo version • No signup required
           </p>
 
         </div>

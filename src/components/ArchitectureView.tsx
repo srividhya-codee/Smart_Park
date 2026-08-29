@@ -49,7 +49,6 @@ export const ArchitectureView: React.FC = () => {
       desc: 'Trigger emergency SOS broadcast to Greater Chennai Police Control (100 / 112)',
       curl: `curl -X POST http://localhost:3000/api/guardian/guard-ses-101/trigger-sos`
     },
-    
   ];
 
   const handleCopy = (curl: string, index: number) => {
