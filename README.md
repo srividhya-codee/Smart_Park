@@ -77,7 +77,7 @@ SmartPark Login
 
 # Application Workflow
 
-## 👤 User Workflow
+##  User Workflow
 
 The user logs into SmartPark and can use the parking-related features.
 
@@ -137,11 +137,11 @@ Over all system workflow
               ↓                 ↓
         Digital Pass        Analytics
 
-## 🔐 Demo Access
+##  Demo Access
 
 No signup is required to explore the application.
 
-### 👤 User Dashboard
+###  User Dashboard
 
 Enter any valid email address and password.
 
@@ -152,7 +152,7 @@ Password: 12345
 
 This will open the User Dashboard.
 
-### 🛡️ Admin Dashboard
+###  Admin Dashboard
 
 Use the administrator email:
 
@@ -164,7 +164,7 @@ This will open the Admin Dashboard.
 > Note: Replace `<ADMIN_DEMO_PASSWORD>` with the actual demo password before publishing the README. Do not publish sensitive production credentials.
 
 
-## 🚀 Deployment
+##  Deployment
 
 SmartPark is deployed as a web application using Render.
 
@@ -184,9 +184,9 @@ Live SmartPark Application
 
 ### Live Application
 
-🌐 Live Demo: [ https://smart-parkai-1brw.onrender.com]
+ Live Demo: [ https://smart-parkai-1brw.onrender.com]
 
-## 👩‍💻 Author
+##  Author
 
 **Srividhya**
 
